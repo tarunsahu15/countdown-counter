@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("adventure.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("../../media/examples/lizard.png"); */
+    display:
+    flex;
+    flex-direction: column;
+    align-items:
+    center;
+    justify-content: center;
+    min-height:100vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+}
+p{
+    background-color:rgb(0, 0, 0,0.4);
+   
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    
+}
+h1{
+    background-color:rgb(0, 0, 0,0.4);
+   
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+
+    font-weight:normal;
+    color:white;
+    font-size:4rem;
+    margin-top: 2rem;
+}
+
+.countdown-container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.big-text{
+    background-color:rgb(0, 0, 0,0.4);
+   
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    font-weight: bold;
+    color:white;
+    font-size:6rem;
+    line-height:1;
+    margin: 0 2rem;
+}
+.countdown-e1{
+    text-align:center;
+}
+.countdown-e1 span{
+    background-color:rgb(0, 0, 0,0.4);
+   
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    
+    font-size: 1.5rem;
+    color:white;
+}

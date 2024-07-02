@@ -1,1 +1,2 @@
-# countdown-counter
+# CountDawn-Counter
+ A countdawn app
